@@ -1,0 +1,111 @@
+
+
+//                   declaración de función (function declaration)
+function restar () {
+    console.log( 10 - 21)
+}
+
+restar();
+
+// expresión de función (function expression)
+
+const restar2 = function() {
+    console.log( 3 - 5 )
+}
+
+restar2();
+
+// diferencias entre función declarada y función expresada
+
+//                 declaración de función (function declaration)
+restar();
+
+function restar () {
+    console.log( 10 - 21)
+}
+/* las funciones declaradas se pueden llamar antes de inicializarla
+pero las expresiones de funciones no, por que es una variable
+*/
+
+//                        expresión de función (function expression)
+
+restar2();
+
+
+alert('come moda');
+prompt('Cuanto te mide');
+
+console.log(parseInt(' 50 '));   //parseInt( '20')  es un función
+
+function Cal (a, b, c)  {    // parametro
+    console.log(a + b - c )
+}
+
+Cal(12, 3, 14);     // argumentos
+
+//                           parametros por Default o defecto
+
+function inicio (nombre = ' desconocido', apellido =  ' ', barrio = 'Donde nacio' )  {    // parametro  ()
+    console.log(` ${nombre} ${apellido} de ${barrio} `)          // y si no hay nada en el argumento se ejecuta el del igual en el parametro
+}
+
+inicio('Anna', 'Murillo');
+
+//                              llamar function Dentro de function
+inicioSesion();
+
+function inicioSesion (){
+    console.log(` iniciando sesión...por favor espere. `)
+
+  Verificando();
+}  
+
+function Verificando(){
+    console.log(` Verificando correo  `)
+  Paso3();
+}
+
+function Paso3(){
+    console.log(` inicio exitoso, Feliz Día`)
+}
+
+//            functions with return  = funciones con retorno
+
+
+
+function suma( a, b){
+   return a + b
+
+}
+
+const adicion = suma(2, 3);
+
+console.log(adicion)
+
+//    código más avanzado de   return
+
+let total = 0;
+
+function AgregarCanasta(precio){
+    return total += precio 
+}
+
+AgregarCanasta(100)
+AgregarCanasta(10)
+AgregarCanasta(131)
+AgregarCanasta(300)
+
+function impuesto(total){
+  return total * 1.19
+}
+
+let TotalPagar = impuesto(total)
+
+console.log(`El total a pagar es de: ${TotalPagar}`)
+
+
+
+
+
+
+
