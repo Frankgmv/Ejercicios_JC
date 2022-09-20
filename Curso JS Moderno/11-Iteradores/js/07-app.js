@@ -5,3 +5,4 @@ let mesesDelAño = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "juli
 for(let mes of mesesDelAño){
     console.log(mes);
 }
+
