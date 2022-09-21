@@ -13,3 +13,5 @@ console.log(info);
 const card2 = document.querySelector('section.hospedaje .contenedor-cards .card:nth-child(2)')
 
 console.log(card2);
+
+
