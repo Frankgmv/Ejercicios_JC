@@ -1,0 +1,8 @@
+- !important
+- estilos en línea
+- identificadores o id
+- clases
+- Pseudo-clases
+- atributos
+- elementos
+- Pseudo-elementos

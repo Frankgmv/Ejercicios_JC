@@ -1,0 +1,18 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    background-color:coral;
+    display: inline;
+    width:200px;
+    height:140px;    
+}
+
+p{
+    background-color:coral;
+    display: block  ;
+    width:200px;
+    height:140px;
+}

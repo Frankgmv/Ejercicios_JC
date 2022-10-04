@@ -1,0 +1,15 @@
+.container-card{
+    padding: 10px;
+}
+
+.letra-roja{
+    color: red;
+}
+
+.container-card-title--inactivo{
+    color: gray;
+}
+.container-card-title{
+    
+    color:blue;
+}

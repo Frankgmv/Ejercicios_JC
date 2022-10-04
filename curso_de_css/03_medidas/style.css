@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.contact_form{
+    font-size: 17px;
+}
+
+.contact_form-p{
+    font-size: 3em;
+}
+
+.contact_form-2{
+    font-size: 17px;
+    background-color: black;
+    width: 50vw;
+    height: 50vh;
+}
+
+.contact_form-p-2   {
+    font-size: 3em;
+}

@@ -1,0 +1,18 @@
+.contect {
+    font-size: 13px;
+    padding: 2px;
+}
+
+.contect_titulo {
+    font-family:  sans-serif, Verdana, Geneva, Tahoma;    
+    font-weight: 400;
+    font-size: 3em;
+    text-transform: uppercase;
+    line-height:2;
+}
+
+.contect_parrafo {
+    font-weight: 800;
+    line-height: 4  ;
+
+}

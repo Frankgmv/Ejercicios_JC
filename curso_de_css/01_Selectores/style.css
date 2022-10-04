@@ -1,0 +1,59 @@
+/* Selector universal */
+
+* {
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+
+/* Selector de tipos */
+
+h1 {
+    color: rebeccapurple;
+}
+
+p, .color-text {
+    color: aliceblue;
+}
+
+/* Selector de clases */
+
+.verde {
+    color: green;
+}
+
+
+/* Selector de IDs */
+
+#link_id {
+    color: aqua;
+}
+
+
+/* Selector por atributos */
+
+[cambiar-tamaño="yes"] {
+    color: orange;
+}
+
+/* Selector por dependientes */
+
+.verde button {
+
+    color: chartreuse;
+}
+
+.verde .titulo {
+    color: crimson;
+}
+
+/* pseudo-clases */
+.ejemplo-pseudo-clases {
+    color: red;
+}
+
+.ejemplo-pseudo-clases:hover {
+    border: 1px;
+    border-color: blueviolet;
+    color: chocolate;
+}
