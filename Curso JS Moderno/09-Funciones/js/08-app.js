@@ -22,4 +22,4 @@ let TotalPagar = impuesto(total);
 console.log(`El total a pagar es de: ${TotalPagar}`)
 
 
-forEach
+// forEach

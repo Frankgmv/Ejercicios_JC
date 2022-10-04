@@ -18,7 +18,7 @@ console.log(encabezado.innerHTML);
 
 // Ahora, si añadimos algo de HTML, 
 
-// TextContent va a ignorar esas etiquetas HTML y traer solo el texto, mientras que innerhTML si se trae el HTML..
+// TextContent va a ignorar esas etiquetas HTML y traer solo el texto, mientras que innerHTML si se trae el HTML..
 
 // ahora también puedes tener algo de encadenamiento o chaining...
 const textoEncabezado = document.querySelector('.contenido-hero h1').textContent;
@@ -32,7 +32,6 @@ document.querySelector('.contenido-hero h1').textContent = 'Nuevo Heading'
 
 const nuevoTexto = 'Nuevo Heading';
 document.querySelector('.contenido-hero h1').textContent = nuevoTexto;
-
 
 // También puedes cambiar una imagen...
 

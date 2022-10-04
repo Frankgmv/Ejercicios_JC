@@ -1,0 +1,10 @@
+*{
+    margin:0%;
+    padding:0px;
+}
+
+.titulos {
+    color: red;
+    font-weight:bold;
+    font: georgia, normal;
+}

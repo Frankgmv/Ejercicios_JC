@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea</title>
+
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        .navbar-container {
+            padding: 20px 10px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;    
+        }
+
+        .imagen {
+            height: 80px;
+            width: 80px;
+            border-radius: 50px;
+            -webkit-border-radius: 50px;
+            -moz-border-radius: 50px;
+            -ms-border-radius: 50px;
+            -o-border-radius: 50px;
+
+        }
+
+
+        .img-big{
+            padding: 0px 5px;
+            width: 400px;
+            height: 500px;
+        }
+        .img-small{
+            padding: 0px 5px;
+            width: 400px;   
+            height: 350px;
+        }
+        
+        .img-medium{
+            padding: 0px 5px;
+            width: 400px;
+            height: 430px;
+        }
+        .contenedor-principal {
+            padding: 0px 10px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .columna {
+            margin: 0px, 5px;
+        }
+        .parrafo{
+            text-align      :center;
+            padding: 10px 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Menu de navegación hacia Facebook y Gmail -->
+    <nav class="navbar-container">
+        <a href="https://www.gmail.com/" target="_blank">
+            <img class="imagen"
+                src="https://www.itfluence.com/wp-content/uploads/2020/10/workspace-nuevo-icono-gmail-1.png"
+                alt="Email">
+        </a>
+        <a href="https://www.facebook.com/" target="_blank">
+            <img class="imagen" src="https://img.freepik.com/psd-premium/icono-facebook-3d_509774-12.jpg"
+                alt="Facebook">
+        </a>
+    </nav>
+    
+    <!-- Contenido principal -->
+    <main class="contenedor-principal">
+        <!-- Columna 1 -->
+        <div class="columna">
+            <img class="img-big" src="https://www.okchicas.com/wp-content/uploads/2019/01/gatos-vidrio-730x381.jpg" alt="">
+            <p class="parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam corporis, eos illum fuga sapiente ut quas provident molestias ad consequuntur. Dignissimos veritatis et recusandae ipsum temporibus sed molestiae quam tempore!</p>
+        </div>
+        
+        <!-- Columna 2 -->
+        <div class="columna">
+            <img class="img-small" src="https://www.okchicas.com/wp-content/uploads/2019/01/Gatos-sentados-en-mesas-de-vidrio-2.jpg" alt="">
+            <p class="parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam corporis, eos illum fuga sapiente ut quas provident molestias ad consequuntur. Dignissimos veritatis et recusandae ipsum temporibus sed molestiae quam tempore!</p>
+        </div>
+        <!-- Columna 3 -->
+        <div class="columna">
+            <img class="img-medium" src="https://www.okchicas.com/wp-content/uploads/2019/01/Gatos-sentados-en-mesas-de-vidrio-12.jpg" alt="">
+            <p class="parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam corporis, eos illum fuga sapiente ut quas provident molestias ad consequuntur. Dignissimos veritatis et recusandae ipsum temporibus sed molestiae quam tempore!</p>
+        </div>
+    </main>
+
+
+</body>
+
+</html>

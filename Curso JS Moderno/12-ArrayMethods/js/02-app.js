@@ -1,6 +1,5 @@
 const meses = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio'];
 
-
 const carrito = [
     { nombre: 'Monitor 27 Pulgadas', precio: 500 },
     { nombre: 'Televisión', precio: 100 },
@@ -17,13 +16,11 @@ const carrito = [
 let indiceE = meses.findIndex(mes => mes == 'Enero');
 let indiceD = meses.findIndex(mes => mes == 'Diciembre');
 
-
 console.log(indiceE)
 console.log(indiceD)
 
 let indiceTablet = carrito.findIndex(product => product.nombre == 'Tablet');
 let celular = carrito.findIndex(product => product.nombre == 'Celular' );
-
 
 console.log(indiceTablet)
 console.log(celular)

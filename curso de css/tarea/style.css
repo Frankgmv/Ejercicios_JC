@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-container {
+    padding: 20px 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.imagen {
+    height: 80px;
+    width: 80px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+
+}
+
+.contenedor-principal {
+     padding: 0px 10px;
+}
+
+.columna {}

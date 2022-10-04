@@ -13,7 +13,7 @@ console.log(tables.repeat(2))
 var text = "hola tíos";
 
 var texto = text.toLowerCase();
-var texto = text.toLowerCase();
+var texto = text.toUpperCase();
 
 
 var number = 300;

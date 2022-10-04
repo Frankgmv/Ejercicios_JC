@@ -1,6 +1,6 @@
 
 const encabezado = document.querySelector('.contenido-hero h1');
-const cambiar_title = document.querySelector('.hospedaje>h2').innerHTML;
+const cambiar_title = document.querySelector('.hospedaje>h2').textContent;
 
 console.log(cambiar_title);
 
@@ -15,3 +15,9 @@ const encabezadoSimple = document.querySelector('.contenido-hero h1').textConten
 document.querySelector('.hospedaje>h2').innerHTML = 'Hospedaje de pendejos';
 
 document.querySelector('.contenido-hero h1').textContent = 'Mi compa guele';
+
+
+const imagen = document.querySelector(".card img");
+console.log(imagen);
+
+imagen.src = "img/hacer2.jpg"
