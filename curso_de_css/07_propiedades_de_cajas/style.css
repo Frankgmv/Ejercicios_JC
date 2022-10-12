@@ -123,6 +123,41 @@
     margin: 20px 10px;
 }
 
+/* Sombreado de cajas */
+
+.contenedor-cajas-sobreadas{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#cajaSombreada1, #cajaSombreada2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 2;
+    text-align: center;
+    padding: 30px 0px;
+    box-sizing:border-box;
+    text-shadow: 3px 4px 7px greenyellow;
+    width: 200px;
+    height:200px;
+    background-color:cadetblue;
+    border: 5px solid gray;
+    border-radius:100px;
+    -webkit-border-radius:100px;
+    -moz-border-radius:100px;
+    -ms-border-radius:100px;
+    -o-border-radius:100px;
+    box-shadow: 5px 5px 10px 1px gray ;
+    margin: 50px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+}
+
 /* box model se compone de 4 cosas y se modifica por medio de las siguientes propiedades*/
 /* el content -> line-height */
 /* el margin -> margin */

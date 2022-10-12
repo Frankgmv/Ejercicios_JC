@@ -1,0 +1,54 @@
+.contenedor {
+    margin-top: 50px;
+    display: inline-block;
+}
+
+.par1 {
+    display:block;
+    background-color: #918;
+    float:left;
+    width: 64%;
+    box-sizing: border-box;
+    padding: 10px 20px;
+    text-align: justify;
+}
+
+
+.par2 {   
+    display: inline-block;
+    background-color: #219;
+    width: 35%;
+    box-sizing: border-box;
+    padding: 50px 40px;
+    text-align: justify;
+}
+
+
+h1{
+    font-size: 2em;
+    text-transform: uppercase;
+    font-family: cursive;
+    line-height: 3;
+    color: #fff;
+    text-align: center  ;
+}
+
+h2{
+    text-align: left;
+    font-size: 1em;
+    padding-top:30px ;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 4;
+    color: #f229;
+}  
+
+@media only screen and (max-width:800px)  {
+
+    .par1, .par2{
+        display: block;
+        width: 100%;
+    }
+}
+
+

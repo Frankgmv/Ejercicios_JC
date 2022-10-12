@@ -1,0 +1,91 @@
+
+
+.hover, div{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2em;
+    line-height: 3;
+    text-align: center;
+    text-shadow: 3px 3px 2px gray;
+    border: 2px dotted gray;
+    display: inline-block;
+    width: 130px;
+    height: 100px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.facebook {
+    display: inline-block;
+    width: 240px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.hover:hover{
+    color: red;
+    text-shadow: 2px 3px 3px black;
+    width: 200px;
+    height: 160px;
+    padding-top: 20px;
+    box-sizing: border-box;
+    background-color: aquamarine;
+    /* transition es para el tiempo de cambios, para generalizar se utiliza transition: all 3s;  */
+    transition: background 1s, color 2s, width 2s, height .4s, padding .6s;
+    -webkit-transition: background 1s, color 2s, width 2s, height .4s, padding .6s;
+    -moz-transition: background 1s, color 2s, width 2s, height .4s, padding .6s;
+    -ms-transition: background 1s, color 2s, width 2s, height .4s, padding .6s;
+    -o-transition: background 1s, color 2s, width 2s, height .4s, padding .6s;
+}
+
+.link {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: blue;
+}
+
+.link:link{
+    text-decoration: underline;
+    background-color: aqua;
+    color: red;
+}
+
+.link:visited{
+    text-decoration: none;
+    background-color: blueviolet;
+    color: black;
+}
+
+.hola:active{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2.em;
+    color: aqua;
+    background-color: cadetblue;
+    transition: all .4s, background 1s;
+    -webkit-transition: all .4s, background 1s;
+    -moz-transition: all .4s, background 1s;
+    -ms-transition: all .4s, background 1s;
+    -o-transition: all .4s, background 1s;
+}
+
+.hover:active{
+    text-decoration: none;
+    background-color: orange;
+    color: greenyellow;   
+}
+
+input{
+    width: 300px;
+    height: 20px;
+}
+
+input:focus{
+    width: 310px;
+    height: 30px;
+    color: white;
+    font-size: 1.2em;
+    background-color: gray;
+    transition: background .7s, all 1s;
+    -webkit-transition: background .7s, all 1s;
+    -moz-transition: background .7s, all 1s;
+    -ms-transition: background .7s, all 1s;
+    -o-transition: background .7s, all 1s;
+}

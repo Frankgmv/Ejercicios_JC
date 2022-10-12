@@ -1,6 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    /* font-size: 17px; */
 }
 .contact_form{
     font-size: 17px;
@@ -17,6 +18,6 @@
     height: 50vh;
 }
 
-.contact_form-p-2   {
+.contact_form-p-2 {
     font-size: 3em;
 }

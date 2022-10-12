@@ -1,0 +1,109 @@
+div{
+    text-align: center;
+    font-size: 1.7em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div div {
+    
+    width: 170px;
+    height: 170px;
+    display: inline-block;
+    border: 2px solid black;
+    font-size: 1em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+    padding: 25px;
+    text-align: center;
+    margin: 50px 25px;
+}
+
+/* RGB */
+
+.rbg-1 {
+    background-color: rgb(255, 0, 0);
+    border: 10px solid rgb(0, 255, 0);
+    color: rgb(0, 0, 255);
+}
+
+.rbg-2 {
+    background-color: rgb(230, 100, 100);
+    border: 10px solid rgb(100, 100  , 200);
+    color: rgb(200, 18, 16);
+}
+
+.rbg-3 {
+    background-color: rgb(225, 180, 19);
+    border: 10px solid rgb(1, 255, 46);
+    color: rgb(60, 70, 255);
+}
+
+.rbg-4 {
+    background-color: rgb(70,70, 70);
+    border: 10px solid rgb(20, 205, 99);
+    color: rgb(0, 0, 0);
+
+}
+.rbg-5 {
+    background-color: rgb(0, 90, 81);
+    border: 10px solid rgb(57, 5, 90);
+    color: rgb(90, 28, 35);
+
+}
+.rbg-6 {
+    background-color: rgb(120, 40, 21);
+    border: 10px solid rgb(177, 255,9);
+    color: rgb(90, 210, 210);
+}
+/* RGBA */
+
+
+.rbga-1 {
+    background-color: rgba(225, 180, 19, .3);
+    border: 10px solid rgba(1, 255, 46, .7);
+    color: rgba(60, 70, 255. .3);
+}
+
+.rbga-2 {
+    background-color: rgba(70,70, 70, .6);
+    border: 10px solid rgba(20, 205, 99, .7);
+    color: rgba(0, 0, 0, .4);
+
+}
+.rb ga-3 {
+    background-color: rgba(0, 90, 81, .8);
+    border: 10px solid rgba(57, 5, 90, .5);
+    color: rgba(90, 28, 35, .3);
+
+}
+/* Hexadecimal 4 u 8 valores RGBA  || 3 0 6o valores RGB*/
+.hex-1{
+    background-color: #f0f ;
+    border: 5px solid #fe0;
+    color: #ad8f
+}
+.hex-2{
+    background-color: #aff ;
+    border: 5px solid #f6a5e3e8;
+    color: #999
+}
+
+.hex-3{
+    background-color: #7e3 ;
+    border: 5px solid #2f1;
+    color: #4efa;
+}
+.hex-4{
+    background-color: #92a ;
+    border: 5px solid #e7f;
+    color: #67f;
+}
+.hex-5{
+    background-color: #5aff ;
+    border: 10px solid #a2c3d4f2;
+    color: #ff1f;
+}
+.hex-6{
+    background-color: #f3a1f1d1 ;
+    border: 6px solid #56f;
+    color: #33a8;
+}

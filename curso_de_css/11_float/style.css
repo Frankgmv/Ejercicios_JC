@@ -1,0 +1,29 @@
+.contenedor{
+}
+
+ .primario{
+    background-color: yellow;
+    display: inline-block;
+    width: 50%;
+}
+.secundario{
+    background-color: red;
+    display: inline-block;
+    width: 50%;
+    /* Ayuda a acomodar las caja   */
+    float: right;
+}
+
+/* Apara realizar el efecto de envolver las cajas con texto se utiliza el float */
+
+.cont{
+    font-size: 20px;
+}
+
+img{
+    border: 1px solid yellow ;
+    float: right;
+    width: 800px;
+    height: 350px;
+    padding: 20px;
+}

@@ -1,0 +1,72 @@
+.texto{
+    padding: 20px;
+}
+
+/* Los pseudo elementos se aplican a elementos existentes, no ocupan espacio en el DOM */
+
+.texto::first-line{
+    background-color: burlywood;
+    color: black;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.texto::first-letter{
+    font-size: 4em;
+}
+
+.formulario{
+    display: block;
+    padding: 10px auto;
+    border: 2px solid black;
+}
+
+#nombre{
+    display: block;
+    width: 400px;
+    text-align: center;
+    height: 20px;
+    margin: 10px auto;
+}
+
+#nombre::placeholder{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: .8em;
+    color: red;
+}
+#nombre::selection{
+    background-color: orange;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: .8em;
+    color: blue;
+}
+
+
+
+
+.name{
+    text-transform: capitalize; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+.name::before{
+    font-style: inherit;
+    content: "Saludos, ";
+    text-transform: lowercase;
+    font-size: 1.3em;
+    color: blue;
+}
+
+.name::after{
+    font-style: inherit;
+    content: "Frank.";
+    text-transform: uppercase;
+    color: brown;
+}
+
+
+
+
+
+

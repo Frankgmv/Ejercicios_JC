@@ -1,0 +1,52 @@
+.auto{
+    margin: 20px auto;
+    background: yellow;
+    border: 8px solid red;
+    width: 250px;
+    height: 250px;
+    /* Esto detecta que el contenido se adapte a la caja, sino hace un scroll automático  en esta*/
+    overflow: auto;
+}
+img{
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    z-index: 10;
+    
+}
+.img{
+    margin: 20px auto;
+    background: yellow;
+    border: 8px solid red;
+    width: 250px;
+    height: 250px;
+    position: relative;
+    /* Esto detecta que el contenido se adapte a la caja, sino hace un scroll automático  en esta*/
+    overflow: auto;
+}
+
+.ov-x{
+    margin: 20px auto;
+    background: yellow;
+    border: 8px solid red;
+    width: 250px;
+    height: 250px;
+    overflow-x: scroll;
+}
+.ov-y{
+    margin: 20px auto;
+    background: yellow;
+    border: 8px solid red;
+    width: 250px;
+    height: 250px;
+    overflow-y: scroll;
+}
+.ov-hidden{
+    margin: 20px auto;
+    background: yellow;
+    border: 8px solid red;
+    width: 250px;
+    height: 250px;
+    overflow-x: auto;
+    overflow-y: hidden;
+}

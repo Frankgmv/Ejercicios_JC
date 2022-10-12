@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}   
+
+.caja-padre {
+    background-color: burlywood;
+}
+.caja-padre2 {
+    background-color:cornflowerblue;  
+    border: 3px solid yellow;
+    position: relative;
+}
+
+.caja-padre div {
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    line-height: 2;
+    padding: 50px 0px 0px 0px;
+    box-sizing: border-box;
+    display: inline-block;
+    text-shadow: 2px 3px 3px black;
+    width: 200px;
+    height: 200px;
+    border: 2px dashed gray;
+    margin: 30px 15px;
+}
+.caja-padre2 div {
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    display: inline-block;
+    line-height: 2;
+    padding: 50px 0px 0px 0px;
+    box-sizing: border-box;
+    text-shadow: 2px 3px 3px black;
+    width: 200px;
+    height: 200px;
+    border: 2px dashed black;
+    margin: 30px 15px;
+    z-index: 1;
+
+}
+
+.Fixed {
+    background-color: coral;
+    position: fixed;
+    top: 250px;
+    right: 0px;
+    /* el z-index es el que ayuda a posicionadas con fixed  relative  */
+    z-index: 1;
+}
+
+.relative {
+    background-color:aquamarine;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+#caja3 {
+    background-color:violet;
+    position: relative;
+    top: 165px;
+    left: 20px;
+    /* La única manera de sobre poner un padre sobre un hijo es con un z-index negativo */
+    z-index: -100;
+
+}
+
+.absolute {
+    background-color:yellow;
+    /* en la absoluta este elemento queda flotando */
+    position: absolute;
+    top: 20px;
+    left: 30px;
+}
+
+.contenedor span{
+    font-size: 1.5em;
+    line-height: 2;
+    display: inline-block;
+    background-color: yellow;
+    width: 100px;
+    height:100px;
+    opacity: .9;
+    position: absolute;
+
+}
+
+.caja11{
+    top: 0px;
+}
+.caja21{
+    right: 0;
+}
+.caja31{
+    bottom: 0;
+}
+.caja41{
+    left: 0;
+}
+
+.contenedor{
+    position: relative;
+    width: 450px;
+    height: 450px;
+    background: green;
+    margin: 0px auto;
+    margin-bottom: 50px;
+}

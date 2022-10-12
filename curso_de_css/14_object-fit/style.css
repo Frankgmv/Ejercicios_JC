@@ -1,0 +1,69 @@
+/* object-fit obliga a las imágenes a ajustarse */
+
+/* toma un fragmento  del tamaño real  de la img    object-fit: none; */
+
+/* muestra la img ajustada a la caja sin perder proporciones  object-fit: contain; */
+
+/* ajusta la img  parecido al none   object-fit: cover; */
+
+/* Ajusta la foto de manera igual según la propiedad más pequeña que pueda dar     object-fit: scale-down;  */
+
+/* fill rellena toda la caja  con la foto*/
+
+/* object-position se dirige a donde le indiquen posicionamiento */
+
+.img-fill {
+    width: 200px;
+    height: 300px;
+    object-fit: fill;
+}
+
+.img-none {
+    width: 200px;
+    height: 300px;
+    object-fit: none;
+}
+
+.img-cover {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.img-contain {
+    width: 200px;
+    height: 300px;
+    object-fit: contain;
+}
+
+.img-scale-down {
+    width: 200px;
+    height: 300px;
+    object-fit: scale-down;
+}
+
+.p-left{
+    object-position: right;
+}
+.p-right{
+    object-position: left;
+}
+
+.p-1em{
+    object-position: -1em;
+}
+.p1em{
+    object-position: 1em;
+}
+
+.container {
+    display: inline-flex;
+}
+
+
+.caja {
+    flex: 1;
+    display: flex;
+    margin: 4px;
+    border: 4px solid red;
+}
